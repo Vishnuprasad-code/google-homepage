@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav-bar li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;   
+    height: 90%;
+    text-align: right;
+}
+#nav-bar{
+    height: 60px;
+    font-size: 1.15em;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    
+}
+#nav-bar li a{
+    text-decoration: none;
+}
+#sign-in{
+    background-color: blue;
+    padding: 10px 15px;
+    text-align: center;
+}
+#nav-bar ul{
+    height: 80%;
+    width: 40%;
+    text-align: right;
+    margin-left: auto;
+    margin-top: auto;
+}
+.signin-btn{
+    color: white;
+    width: 25%;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#main-section{
+    width: 100%;
+    height: 100%;
+    margin: 20px auto 0px auto;
+}
+#main-contents{  
+    width: 75%;
+
+    height: 75%;
+    margin: auto;
+}
+#image-id{
+    width: 30%;
+    height: auto;
+    margin: 100px auto 0 auto;    
+}
+#google-image{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+#search-id{
+    width: 40%;
+    height: auto;
+    margin: 20px auto 0 auto; 
+    display: flex;
+    
+}
+#search-box{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    border: 1px solid black;
+    border-left: white;
+    width: 100%;
+    padding-right: 4%;
+    font-size: 1.5em;
+}
+#search-id img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px 0 0 20px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    opacity: .7;
+}
+#buttons-id{
+    width: 80%;
+    height:200px;
+    margin: 20px auto;
+    text-align: center;
+}
+#buttons-id input{
+    display: inline-block;
+    height: 40px;
+    margin-top: 2%;
+    font-size: 1.15em;
+    
+    
+}
+#buttons-id p{
+    text-align: center;
+    font-size: 1em;
+}    
+#footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    color: #343d36;
+}
+#footer div{
+    height: 50%;
+    background-color: #b2beb5;
+}
+#country-id{
+    padding-left: 1%;
+    padding-top: .2%;
+    background-color:#b2beb5;
+    border-bottom: .5px solid #343d36;
+}
+#footer li{
+    display: inline-block;
+    margin-left: 2%;
+}
+#part1{
+    width: 50%;
+    padding-top: .2%;
+}
+#part2{
+    width: 50%;
+    padding-top: .2%;
+    text-align: right;
+    padding-right: .7%;
+}
+#final-row{
+    display: flex;
+    flex-direction: row;
+}
+
